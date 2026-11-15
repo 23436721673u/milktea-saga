@@ -1,0 +1,15 @@
+# 编译产物
+target/
+build/
+node_modules/
+*.class
+*.jar
+
+# 密码/密钥配置
+.env
+application-local.yml
+
+# 编辑器
+.idea/
+.vscode/
+*.iml

@@ -1,0 +1,32 @@
+# 编译产物
+target/
+build/
+out/
+*.class
+*.jar
+
+# 本地数据库配置（含密码，不提交）
+backend/src/main/resources/db.properties
+.env
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+node_modules/
+.data/
+.data-*/
+.env
+.env.*
+.dev.vars*
+*.log
+__pycache__/
+*.pyc
+.DS_Store
